@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Dummy Api</title>
+    </head>
+    <body>
+        <div class="container_forms">
+            <div class="user_information  border_radius  box_shadow">
+                <h1>User information</h1>
+                <input type="text" placeholder="First name" class="firstname_inp  border_radius  background_orange">
+                <input type="text" placeholder="Last name" class="lastname_inp  border_radius  background_orange">
+                <input type="email" placeholder="Email" class="email_input  border_radius  background_orange">
+            </div>
+            <div class="post_information  border_radius  box_shadow">
+                <h2>Blog post text</h2>
+                <textarea cols="55" rows="5" class="background_orange  border_radius"></textarea>
+            </div>
+            <div class="submit">
+                <button class="create_button  border_radius">Create user</button>
+                <button class="remove_button  border_radius">Remove user</button>
+            </div>
+        </div>
+        <div class="container_result  container_forms  flex_center_center">
+            <div class="container_sign_up">
+                <button class="log_out  remove_button  border_radius">Log out</button>
+                <div class="Create_Sign">
+                    <button class="button_account  border_radius">Create account</button>
+                    <button class="Sign_up_button  border_radius">Sign up</button>
+                </div>
+                <div class="welcome">
+                    <span class="profile"></span>
+                    <h3>Hello , <span class="span_firstName"></span> <span class="span_lastName"></span> , Your account Created 👋</h3>
+                </div>
+            </div>
+            <div class="view_post">
+                <h4>View blog post</h4>
+                <div class="shape">
+                    <div class="rectangle">
+                        <p class="background_orange  border_radius"></p>
+                    </div>
+                    <div class="triangle-topleft"></div>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
